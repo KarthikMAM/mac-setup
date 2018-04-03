@@ -1,6 +1,3 @@
-# Create file if it doesn't exist
-touch ~/.bash_profile
-
 # Download git-completion
 wget "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash"
 
@@ -23,3 +20,6 @@ export PS1="\e[0;35m-> \e[1;34m\W\e[0;32m\$(parse_git_branch)\e[0;37m $ "
 
 ' >> ~/.bash_profile
 
+
+# Reload Configs
+source ~/.bash_profile
