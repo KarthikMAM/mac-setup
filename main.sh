@@ -1,6 +1,7 @@
 # Installations
 . install-ruby.sh
 . install-brew.sh
+. install-bashcompletion.sh
 . install-go.sh
 . install-elasticsearch.sh
 . install-node.sh

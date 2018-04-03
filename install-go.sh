@@ -7,8 +7,8 @@ brew install go
 echo '
 
 # Go Configs
-export PATH="$PATH:/usr/local/go/bin"
-export GOPATH=/Users/karthik/go"
+export PATH="$PATH:$(brew --prefix)/go/bin"
+export GOPATH=$HOME/go"
 
 ' >> ~/.bash_profile
 
