@@ -12,6 +12,7 @@ cp ~/.bash_profile backups/.bash_profile
 . install-bashcompletion.sh
 . install-go.sh
 . install-elasticsearch.sh
+. install-docker.sh
 . install-node.sh
 . install-hyper.sh
 . install-redis.sh
