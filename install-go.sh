@@ -1,7 +1,9 @@
 echo -e "Installing golang... \n\n\n"
 
-# Install go
+
+# Install GoLang
 brew install go
+
 
 # Export Config to bash_profile
 echo '

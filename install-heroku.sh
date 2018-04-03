@@ -1,9 +1,11 @@
 echo -e "Installing heroku... \n\n\n"
 
-# Install heroku
+
+# Install Heroku
 brew install heroku
 heroku --version
 heroku login
+
 
 # Add Heroku Completions
 heroku plugins:install heroku-cli-autocomplete

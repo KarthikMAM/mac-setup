@@ -1,6 +1,9 @@
 echo "Installing https://github.com/nvbn/thefuck"
 
+
+# Install Plugin
 brew install thefuck
+
 
 # Export Configs
 echo '

@@ -1,7 +1,9 @@
 echo -e "Installing Bash Completion... \n\n\n"
 
+
 # Install Bash Completion
 brew install bash-completion
+
 
 # Export Configs
 echo -e '
