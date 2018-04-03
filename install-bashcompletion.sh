@@ -12,3 +12,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 ' >> ~/.bash_profile
+
+
+# Reload Configs
+source ~/.bash_profile

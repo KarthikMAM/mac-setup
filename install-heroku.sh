@@ -8,3 +8,7 @@ heroku login
 # Add Heroku Completions
 heroku plugins:install heroku-cli-autocomplete
 heroku autocomplete
+
+
+# Reload Configs
+source ~/.bash_profile

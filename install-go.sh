@@ -12,3 +12,6 @@ export GOPATH=$HOME/go"
 
 ' >> ~/.bash_profile
 
+
+# Reload Configs
+source ~/.bash_profile

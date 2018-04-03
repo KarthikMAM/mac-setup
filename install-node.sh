@@ -6,3 +6,5 @@ brew install node
 # Node version manager
 npm install -g n
 
+# Reload Configs
+source ~/.bash_profile

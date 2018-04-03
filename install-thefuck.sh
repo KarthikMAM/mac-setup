@@ -9,3 +9,7 @@ echo '
 eval $(thefuck --alias)
 
 ' >> ~/.bash_profile.sh
+
+
+# Reload Configs
+source ~/.bash_profile

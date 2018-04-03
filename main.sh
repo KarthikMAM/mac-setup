@@ -1,6 +1,9 @@
 # Create bash_profile if needed
 touch ~/.bash_profile
 
+# Copy old config to backups just in case
+cp ~/.bash_profile backups/.bash_profile
+
 # Installations
 . install-ruby.sh
 . install-brew.sh
@@ -16,3 +19,6 @@ touch ~/.bash_profile
 
 # Customisations
 . customize-terminal.sh
+
+
+source ~/.bash_profile
