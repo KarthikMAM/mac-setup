@@ -8,6 +8,7 @@ cp ~/.bash_profile backups/.bash_profile
 
 # Installations
 . install-ruby.sh
+. install-git.sh
 . install-brew.sh
 . install-bashcompletion.sh
 . install-go.sh
