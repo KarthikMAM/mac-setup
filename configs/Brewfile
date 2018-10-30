@@ -1,0 +1,36 @@
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "subosito/packages"
+
+brew "autoconf"
+brew "automake"
+brew "bash-completion"
+brew "coreutils"
+brew "curl"
+brew "elasticsearch@5.6", restart_service: true
+brew "git"
+brew "go"
+brew "kibana"
+brew "libksba"
+brew "openssl"
+brew "libtool"
+brew "libyaml"
+brew "openssl@1.1"
+brew "pgcli"
+brew "pkg-config"
+brew "readline"
+brew "postgresql", restart_service: true
+brew "redis", restart_service: true
+brew "thefuck"
+brew "watchman", args: ["HEAD"]
+brew "wget"
+brew "heroku/brew/heroku"
+
+cask "google-chrome"
+cask "java"
+cask "pgadmin4"
+cask "react-native-debugger"
+cask "visual-studio-code"
