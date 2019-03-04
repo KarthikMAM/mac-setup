@@ -7,6 +7,7 @@ brew install node
 
 # Node version manager
 npm install -g n
+npm install -g yarn
 
 
 # Reload Configs
