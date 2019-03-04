@@ -2,7 +2,7 @@ echo -e "Installing heroku... \n\n\n"
 
 
 # Install Heroku
-brew install heroku
+brew install heroku/brew/heroku
 heroku --version
 heroku login
 

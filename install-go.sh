@@ -10,7 +10,7 @@ echo '
 
 # Go Configs
 export PATH="$PATH:$(brew --prefix)/go/bin"
-export GOPATH=$HOME/go"
+export GOPATH=$HOME/go
 
 ' >> ~/.bash_profile
 

@@ -21,6 +21,13 @@
 . install-thefuck.sh
 ```
 
+## Brew Bundle
+
+```bash
+cd configs
+brew bundle
+```
+
 ## Alternative Installations
 
 Instead of using brew to install **elasticsearch**, **redis**, **postgres** standalone, which restricts the version of services we want to use, standalone **Docker** containers can be used. This methods would be very useful when you have to work on several projects each having their own versions of these services.

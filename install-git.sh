@@ -1,4 +1,4 @@
-echo -e "Installing Elasticsearch... \n\n\n"
+echo -e "Installing Git... \n\n\n"
 
 
 # Install ElasticSearch
