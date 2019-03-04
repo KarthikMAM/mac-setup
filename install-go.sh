@@ -8,8 +8,8 @@ brew install go
 echo '
 
 # Go Configs
-export PATH="$PATH:$(brew --prefix)/go/bin"
 export GOPATH=$HOME/go
+export PATH="$PATH:$(brew --prefix)/go/bin:$GOPATH/bin"
 
 ' >> ~/.bash_profile
 
