@@ -4,7 +4,6 @@ echo -e "Installing golang... \n\n\n"
 # Install GoLang
 brew install go
 
-
 # Export Config to bash_profile
 echo '
 
@@ -17,3 +16,6 @@ export GOPATH=$HOME/go
 
 # Reload Configs
 source ~/.bash_profile
+
+# Install GoMacro
+go get -u github.com/cosmos72/gomacro
