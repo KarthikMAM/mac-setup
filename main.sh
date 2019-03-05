@@ -19,6 +19,8 @@ cp ~/.bash_profile backups/.bash_profile
 . install-redis.sh
 . install-postgres.sh
 . install-heroku.sh
+. install-pip.sh
+. install-aws-cli.sh
 
 # Customisations
 . customize-terminal.sh
